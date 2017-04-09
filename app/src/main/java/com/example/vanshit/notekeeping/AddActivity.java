@@ -15,6 +15,7 @@ import java.util.Random;
 public class AddActivity extends AppCompatActivity {
 
     EditText e1;
+
     String col = "#90ceb6";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class AddActivity extends AppCompatActivity {
         save();
     }
     public void save(){
-        Button butsave = (Button)findViewById(R.id.button);
+        Button butsave = (Button)findViewById(R.id.ebutton);
         butsave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
